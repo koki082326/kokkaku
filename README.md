@@ -1,8 +1,9 @@
-# kokkaku
+
+# kokkaku: Hybrid Fall Detection Pipeline using AlphaPose and Deep Learning
+
 This repository contains a hybrid fall-detection pipeline using AlphaPose and deep learning.
 The system extracts human skeletons from video, preprocesses pose sequences, 
 and classifies falls vs non-falls using LSTM/GRU/CNN-LSTM models.
-# kokkaku: Hybrid Fall Detection Pipeline using AlphaPose and Deep Learning
 
 kokkaku は、**AlphaPose を用いた骨格推定**と  
 **LSTM / GRU / CNN-LSTM を用いた時系列解析**により  
