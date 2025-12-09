@@ -28,6 +28,7 @@ kokkaku は、**AlphaPose を用いた骨格推定**と
 ---
 
 ## 📁 Project Structure
+![フローチャート](./A_flowchart_diagram_in_the_image_illustrates_a_fal.png)
 
 # kokkaku: Skeleton-based Fall Detection Pipeline
 
