@@ -2,9 +2,9 @@
 This repository contains a hybrid fall-detection pipeline using AlphaPose and deep learning.
 The system extracts human skeletons from video, preprocesses pose sequences, 
 and classifies falls vs non-falls using LSTM/GRU/CNN-LSTM models.
-# Gati: Hybrid Fall Detection Pipeline using AlphaPose and Deep Learning
+# kokkaku: Hybrid Fall Detection Pipeline using AlphaPose and Deep Learning
 
-Gati は、**AlphaPose を用いた骨格推定**と  
+kokkaku は、**AlphaPose を用いた骨格推定**と  
 **LSTM / GRU / CNN-LSTM を用いた時系列解析**により  
 転倒・非転倒を高精度に分類するためのハイブリッド転倒検知パイプラインです。
 
