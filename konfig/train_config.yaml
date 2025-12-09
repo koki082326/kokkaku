@@ -1,0 +1,17 @@
+train:
+epochs: 30
+batch_size: 32
+lr: 0.001
+save_dir: checkpoints
+
+
+model:
+seq_len: 64
+input_dim: 34 # 17 keypoints * 2
+hidden_dim: 128
+num_classes: 2
+
+
+data:
+train_list: data/train_list.txt
+val_list: data/val_list.txt
