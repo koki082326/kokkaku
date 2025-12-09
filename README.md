@@ -154,27 +154,17 @@ src/analysis/feature_importance.py
 * SHAP による個別フレーム寄与度の可視化
 
 ---
-# Kokkaku: Skeleton-based Fall Detection Pipeline
 
-![Pipeline](docs/pipeline_diagram.png)
 
-## 概要
-`kokkaku` は骨格情報（AlphaPose など）を用いて転倒を検知するためのパイプラインです。
-時系列モデル（LSTM, GRU, CNN-LSTM）を用い、骨格データから特徴量抽出 → 学習 → 推論までを一気通貫で行えます。
+## 📝 Citation
 
-### 特徴
-- AlphaPose の 2D キーポイントを入力
-- 身体中心座標、速度、加速度、角度などの特徴量を計算
-- 時系列モデルで転倒/非転倒を分類
-- SHAP による特徴量重要度分析も対応
-- Jupyter Notebook で EDA, モデル比較可能
+（論文化したときに追記）
 
-### ディレクトリ構成
-- `src/`: メインコード（モデル・前処理・学習・推論）
-- `config/`: 学習設定ファイル
-- `notebooks/`: EDA・モデル比較用テンプレ
-- `docs/`: 論文まとめ・アーキテクチャ図
-- `examples/`: 推論サンプル
+---
+
+## 📄 License
+
+MIT
 
 ### 使い方
 ```bash
@@ -195,12 +185,3 @@ python src/train.py --config config/train_config.yaml --model LSTM
 # 5. 推論
 python examples/demo_inference.py --model LSTM --model_path checkpoints/best_LSTM.pth --input samples/sample_pose.json
 
-## 📝 Citation
-
-（論文化したときに追記）
-
----
-
-## 📄 License
-
-MIT
