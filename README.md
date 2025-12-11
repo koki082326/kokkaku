@@ -15,7 +15,7 @@ kokkaku は、**AlphaPose を用いた骨格推定**と
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **AlphaPose による高精度なキーポイント抽出**
 - **Pose JSON → NumPy の標準化前処理パイプライン**
@@ -27,12 +27,12 @@ kokkaku は、**AlphaPose を用いた骨格推定**と
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ![kokkaku_architecture](docs/kokkaku_architecture.png)
 
 # kokkaku: Skeleton-based Fall Detection Pipeline
 
-## 📌 Overview
+##  Overview
 
 kokkaku は、**AlphaPose を用いた骨格推定**と、**LSTM / GRU / CNN-LSTM 時系列モデル**による転倒検知を行う研究目的のフルパイプライン実装です。
 
@@ -49,7 +49,7 @@ kokkaku は、**AlphaPose を用いた骨格推定**と、**LSTM / GRU / CNN-LST
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ```
 kokkaku/
@@ -70,7 +70,7 @@ kokkaku/
 
 ---
 
-## ✨ Research Background
+##  Research Background
 
 高齢者の転倒は重大な事故の原因であり、監視カメラ映像を用いた**非接触の転倒検知**が強く求められている。本研究では RGB 動画からの骨格情報に基づく転倒検知に着目し、既存研究では困難であった「**転倒直前の姿勢崩れ（姿勢角度 + 速度変化）**」を高精度に捉えることを目的とする。
 
@@ -80,7 +80,7 @@ kokkaku/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone
 
@@ -111,7 +111,7 @@ python src/inference/inference.py --video samples/sample_video.mp4
 
 ---
 
-## 🧠 Models
+##  Models
 
 ### LSTM
 
@@ -130,7 +130,7 @@ python src/inference/inference.py --video samples/sample_video.mp4
 
 ---
 
-## 🧪 Feature Engineering
+##  Feature Engineering
 
 使用した特徴量：
 
@@ -142,7 +142,7 @@ python src/inference/inference.py --video samples/sample_video.mp4
 
 ---
 
-## 📊 Feature Importance
+##  Feature Importance
 
 ```
 src/analysis/feature_importance.py
@@ -156,13 +156,13 @@ src/analysis/feature_importance.py
 ---
 
 
-## 📝 Citation
+##  Citation
 
 （論文化したときに追記）
 
 ---
 
-## 📄 License
+##  License
 
 MIT
 
